@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ name }}</title>
+    {%- for stylesheet in stylesheets %}
+    <link rel="stylesheet" href="styles/{{ stylesheet }}">
+    {%- endfor %}
+    {%- for rawHeadData in rawHeadDatas %}
+    {{ rawHeadData }}
+    {%- endfor %}
 </head>
 <body>
     <header>

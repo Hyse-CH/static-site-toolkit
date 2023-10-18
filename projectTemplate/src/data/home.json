@@ -1,0 +1,12 @@
+{
+    "stylesheets": [
+        "test.css",
+        "test2.css"
+    ],
+    "rawHeadDatas": [
+        "<script></script>"
+    ],
+    "data": {
+        "firstText": "Hello, World"
+    }
+}
